@@ -199,6 +199,7 @@ You should now be back on **LineageOS**.
 
 - This project supports **Nothing Phone (1) only**
 - Current shipped desktop environments are Phosh and Plasma Mobile
+- this Plasma-mobie build is in an experimental state flash at your own risk
 - Default password: **7777**
 - I am **not responsible** for any damage or data loss
 
@@ -215,7 +216,7 @@ WiFi note: Detected and working (no need for any manual setup)
 
 Mobile Data: Detected my sim card but i'm currently out of data so couldn't test
 
-Bluetooth note: Detected and should work couldn't test
+Bluetooth note: Detected and should work forgot to test
 
 Calls note: Calls are problematic — you may not hear the other person and they may not hear you. No known fix at this time.
 
