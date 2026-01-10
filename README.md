@@ -99,8 +99,8 @@ fastboot erase dtbo
 
 ```sh
 cd ~/postmarketOS-spacewar/des/
-xz -d <<your desired dektop environment>.tar.gz.xz
-tar -xvf <<your desired dektop environment>.tar.gz
+xz -d <your desired dektop environment>.tar.gz.xz
+tar -xvf <your desired dektop environment>.tar.gz
 cd ~/postmarketOS-spacewar/des/<your desired dektop environment>
 fastboot flash boot boot.img
 fastboot flash userdata userdata.img
