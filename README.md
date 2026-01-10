@@ -122,7 +122,7 @@ You should now boot into **postmarketOS** on your Nothing Phone (1).
 
 > This restore process is **only for LineageOS** at the moment.
 
-1. From the project directory, run:
+1. from your current directoy. run:
 
 ```sh
 cd ~/postmarketOS-spacewar
@@ -198,8 +198,8 @@ You should now be back on **LineageOS**.
 ## Some Notes
 
 - This project supports **Nothing Phone (1) only**
-- Current shipped desktop environments are Phosh and Plasma Mobile
-- this Plasma-mobie build is in an experimental state flash at your own risk
+- Current shipped desktop environments are Phosh and Plasma-Mobile
+- this Plasma-mobile build is in an experimental state flash at your own risk
 - Default password: **7777**
 - I am **not responsible** for any damage or data loss
 
