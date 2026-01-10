@@ -7,28 +7,28 @@ if command -v pacman &>/dev/null; then
 elif command -v apt &>/dev/null; then
     echo "Detected Debian/Ubuntu-based system."
     sudo apt update
-    sudo apt install -y wget unzip
+    sudo apt install -y wget unzip xz
 
 elif command -v dnf &>/dev/null; then
     echo "Detected Fedora-based system."
-    sudo dnf install -y wget unzip
+    sudo dnf install -y wget unzip xz
 
 elif command -v zypper &>/dev/null; then
     echo "Detected openSUSE-based system."
     sudo zypper refresh
-    sudo zypper install -y wget unzip
+    sudo zypper install -y wget unzip xz
 
 elif command -v xbps-install &>/dev/null; then
     echo "Detected Void Linux."
-    sudo xbps-install -Sy wget unzip
+    sudo xbps-install -Sy wget unzip xz
 
 elif command -v emerge &>/dev/null; then
     echo "Detected Gentoo."
-    sudo emerge -aq wget unzip
+    sudo emerge -aq wget unzip xz
 
 else
     echo "Unsupported Linux distribution."
-    echo "Please install wget and an unziping utility manually."
+    echo "Please install wget and an unziping utility and xz manually."
     exit 1
 
 fi
