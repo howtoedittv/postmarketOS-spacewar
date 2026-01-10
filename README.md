@@ -135,7 +135,7 @@ cd ~/postmarketOS-spacewar
 cd lin
 ```
 
-3. Power off the phone
+3. Power off your phone
 4. Power it back on while holding **Power + Volume Up**
 5. When the Nothing logo appears:
    - Release **Power**
