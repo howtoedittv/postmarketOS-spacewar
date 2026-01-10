@@ -1,0 +1,60 @@
+#!/usr/bin/bash
+
+if command -v pacman &>/dev/null; then
+    echo "Detected Arch-based system."
+    sudo pacman -Sy --needed --noconfirm wget unzip
+
+elif command -v apt &>/dev/null; then
+    echo "Detected Debian/Ubuntu-based system."
+    sudo apt update
+    sudo apt install -y wget unzip
+
+elif command -v dnf &>/dev/null; then
+    echo "Detected Fedora-based system."
+    sudo dnf install -y wget unzip
+
+elif command -v zypper &>/dev/null; then
+    echo "Detected openSUSE-based system."
+    sudo zypper refresh
+    sudo zypper install -y wget unzip
+
+elif command -v xbps-install &>/dev/null; then
+    echo "Detected Void Linux."
+    sudo xbps-install -Sy wget unzip
+
+elif command -v emerge &>/dev/null; then
+    echo "Detected Gentoo."
+    sudo emerge -aq wget unzip
+
+else
+    echo "Unsupported Linux distribution."
+    echo "Please install wget and an unziping utility manually."
+    exit 1
+
+fi
+
+cd ~ 
+
+sleep 1
+
+wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip && mkdir ~/sdktools && mv ~/platform-tools-latest-linux.zip ~/sdktools/pt.zip
+
+cd ~/sdktools
+
+unzip pt.zip
+
+cd platform-tools
+
+sudo cp fastboot adb /usr/bin/
+
+sleep 2
+
+cd ~ 
+
+sudo rm -rf ~/sdktools/
+
+adb --version
+
+fastboot --version
+
+
