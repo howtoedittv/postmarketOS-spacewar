@@ -29,7 +29,9 @@ git clone --depth 1 https://github.com/howtoedittv/postmarketOS-spacewar
 cd postmarketOS-spacewar
 ```
 
-### 2. Get adb and fastboot (Only needed if You Dont Have adb and fastboot installed) 
+### 2. Get adb and fastboot
+
+> Skip this section if you already have adb and fastboot installed 
 
 Run the provided script:
 
