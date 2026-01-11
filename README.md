@@ -208,7 +208,14 @@ adb devices
 adb -d sideload Magisk-v30.6.apk 
 ```
 22. When asked about Signuture verification choose yes/accept
-24. Go back to the main menu
+23. when it finishes go back to the Apply update/Apply from ADB section
+24. back on the pc flash the mindthegapps file
+```sh
+adb devices
+adb -d sideload MindTheGapps-16.0.0-arm64-20250812_214353.zip 
+```
+25. When asked about Signuture verification choose yes/accept once more
+26. Go back to the main menu
 23. Select **Reboot Your system**
 
 You should now be back on **LineageOS with root**.
