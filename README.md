@@ -102,17 +102,16 @@ fastboot erase vendor_boot
 fastboot erase dtbo
 ```
 
-6. Extract Your Chosen Image Corresponding To Your Preferred Desktop Environment:
+6. Extract Your Chosen Image Corresponding To Your Preferred Desktop Environment and cd into the resulted directory:
 ```sh
 cd ~/postmarketOS-spacewar/des/
 xz -d <your desired dektop environment>.tar.gz.xz
 tar -xvf <your desired dektop environment>.tar.gz   
+cd ~/postmarketOS-spacewar/des/<your desired dektop environment>
 ```
 
 7. Flash postmarketOS images:
 ```sh
-
-cd ~/postmarketOS-spacewar/des/<your desired dektop environment>
 fastboot flash boot boot.img
 fastboot flash userdata userdata.img
 ```
@@ -168,7 +167,6 @@ fastboot erase userdata
 8. Flash LineageOS images:
 
 ```sh
-cd ~/postmarketOS-spacewar/lin
 fastboot flash boot boot.img
 fastboot flash vendor_boot vendor_boot.img
 fastboot flash dtbo dtbo.img
