@@ -176,14 +176,14 @@ fastboot reboot recovery
 10. In Lineage recovery:
     - Select **Factory reset**
     - Select **Format data / factory reset**
-    - Confirm
+    - Select **Format data**
 
-11. Go back using volume keys and power button
+11. Go back To the Main menu using volume keys and power button
 12. Select **Advanced**
-13. Enable **ADB**
+13. Select **Enable ADB**
 14. Go back to the first menu
-15. Go to apply update
-16. Go to apply update via adb
+15. Select **Apply update**
+16. Select **Apply from ADB**
 
 17. On your PC, sideload LineageOS:
 
@@ -192,8 +192,8 @@ adb devices
 adb -d sideload lin.zip
 ```
 
-15. When asked to reboot back to recovery, select **No**
-16. Select **Reboot**
+18. When asked to reboot back to recovery, select **No**
+19. **Reboot Your Phone**
 
 You should now be back on **LineageOS**.
 
