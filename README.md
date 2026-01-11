@@ -1,3 +1,4 @@
+
 # postmarketOS-spacewar
 
 postmarketOS for Nothing Phone (1) – spacewar
@@ -104,6 +105,7 @@ fastboot erase dtbo
 
 6. Run Your Chosen Image download script Corresponding To Your Preferred Desktop Environment:
 ```sh
+cd des
 chmod +x get-<your desired dektop environment>
 ./get-<your desired dektop environment>
 ```
