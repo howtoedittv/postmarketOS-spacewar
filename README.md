@@ -71,6 +71,7 @@ After unlocking, complete the Android setup again and re-enable **Developer opti
 ---
 
 ## Flashing Instructions
+**note: If you Have a google acount tied to your phone make sure to reset from the phone itself first to avoid being frp locked later**
 
 1. Plug your Nothing Phone (1) into your PC
 2. Initialize ADB and confirm the device is detected:
