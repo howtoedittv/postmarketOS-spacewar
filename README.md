@@ -139,7 +139,7 @@ cd lin
 4. Power it back on while holding **Power + Volume Up**
 5. When the Nothing logo appears:
    - Release **Power**
-   - Keep holding **Volume Up** until you enter the bootloader
+   - Keep holding **Volume Down** until you enter the bootloader
 
 6. On your PC, verify fastboot:
 
