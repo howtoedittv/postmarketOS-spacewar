@@ -99,12 +99,16 @@ fastboot erase vendor_boot
 fastboot erase dtbo
 ```
 
-6. Flash postmarketOS images:
-
+6. Untar Your Wanted Image:
 ```sh
 cd ~/postmarketOS-spacewar/des/
 xz -d <your desired dektop environment>.tar.gz.xz
-tar -xvf <your desired dektop environment>.tar.gz
+tar -xvf <your desired dektop environment>.tar.gz   
+
+7. Flash postmarketOS images:
+
+```sh
+
 cd ~/postmarketOS-spacewar/des/<your desired dektop environment>
 fastboot flash boot boot.img
 fastboot flash userdata userdata.img
