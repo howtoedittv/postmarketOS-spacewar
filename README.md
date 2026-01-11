@@ -211,7 +211,7 @@ adb -d sideload Magisk-v30.6.apk
 24. Go back to the main menu
 23. Select **Reboot Your system**
 
-You should now be back on **LineageOS**.
+You should now be back on **LineageOS with root**.
 
 ---
 
