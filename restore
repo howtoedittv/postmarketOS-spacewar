@@ -48,6 +48,8 @@ tar -xvf lin.tar.gz && cd lin
 wget https://mirrorbits.lineageos.org/full/Spacewar/20260107/lineage-23.0-20260107-nightly-Spacewar-signed.zip
 sleep 1
 wget https://github.com/topjohnwu/Magisk/releases/download/v30.6/Magisk-v30.6.apk
+sleep 1
+wget https://github.com/MindTheGapps/16.0.0-arm64/releases/download/MindTheGapps-16.0.0-arm64-20250812_214353/MindTheGapps-16.0.0-arm64-20250812_214353.zip
 cd ~/postmarketOS-spacewar/
 
 rm -rf lin.tar.gz
