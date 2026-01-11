@@ -218,7 +218,7 @@ adb -d sideload MindTheGapps-16.0.0-arm64-20250812_214353.zip
 26. Go back to the main menu
 23. Select **Reboot Your system**
 
-You should now be back on **LineageOS with root**.
+You should now be back on **LineageOS with root and gapps**.
 
 ---
 
