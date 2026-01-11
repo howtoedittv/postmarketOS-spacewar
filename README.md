@@ -46,6 +46,8 @@ chmod +x get-sdk
 
 > Skip this section if your bootloader is already unlocked.
 
+**note: If you Have a google acount tied to your phone make sure to reset from the phone itself first to avoid being FRP locked later**
+
 1. On your phone, open **Settings**
 2. Go to **About phone**
 3. Tap **Build number** repeatedly until it says you are a developer
@@ -71,7 +73,7 @@ After unlocking, complete the Android setup again and re-enable **Developer opti
 ---
 
 ## Flashing Instructions
-**note: If you Have a google acount tied to your phone make sure to reset from the phone itself first to avoid being frp locked later**
+**note: If you Have a google acount tied to your phone make sure to reset from the phone itself first to avoid being FRP locked later**
 
 1. Plug your Nothing Phone (1) into your PC
 2. Initialize ADB and confirm the device is detected:
