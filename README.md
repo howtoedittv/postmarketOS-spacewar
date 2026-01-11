@@ -36,6 +36,7 @@ cd postmarketOS-spacewar
 Run the provided script:
 
 ```sh
+chmod +x get-sdk
 ./get-sdk
 ```
 
@@ -93,6 +94,7 @@ fastboot devices
 5. Erase required partitions:
 
 ```sh
+fastboot erase boot
 fastboot erase vendor_boot
 fastboot erase dtbo
 ```
@@ -126,6 +128,7 @@ You should now boot into **postmarketOS** on your Nothing Phone (1).
 
 ```sh
 cd ~/postmarketOS-spacewar
+chmod +x restore
 ./restore
 ```
 
@@ -151,6 +154,7 @@ fastboot devices
 
 ```sh
 fastboot erase vendor_boot
+fastboot erase boot
 fastboot erase userdata
 ```
 
