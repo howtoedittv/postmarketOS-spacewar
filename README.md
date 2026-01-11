@@ -138,7 +138,7 @@ chmod +x restore
 ./restore
 ```
 
-2. After it finishes, a new directory called `lin` will appear:
+2. After it finishes, a new directory called `lin` will appear cd into it:
 
 ```sh
 cd lin
