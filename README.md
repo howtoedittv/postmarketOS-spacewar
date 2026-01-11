@@ -200,8 +200,10 @@ adb -d sideload lineage-23.0-20260107-nightly-Spacewar-signed.zip
 ```
 
 18. When asked If You Want to reboot back to recovery, select **yes**
-19. Go back to Apply update/Apply from adb
-20. Back On The Pc sideload Magisk to Enable root
+19. When back in the recovery go to enable adb once more
+20. Go back to the main menu
+21. Go to Apply update/Apply from adb
+22. Back On The Pc sideload Magisk to Enable root
 
 ```sh
 adb devices
