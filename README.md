@@ -193,7 +193,7 @@ fastboot reboot recovery
 
 ```sh
 adb devices
-adb -d sideload lin.zip
+adb -d sideload lineage-23.0-20260107-nightly-Spacewar-signed.zip
 ```
 
 18. When asked to reboot back to recovery, select **No**
