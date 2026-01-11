@@ -102,8 +102,9 @@ fastboot erase vendor_boot
 fastboot erase dtbo
 ```
 
-6. run Your Chosen Image download script Corresponding To Your Preferred Desktop Environment:
+6. Run Your Chosen Image download script Corresponding To Your Preferred Desktop Environment:
 ```sh
+chmod +x get-<your desired dektop environment>
 ./get-<your desired dektop environment>
 ```
 
