@@ -199,8 +199,17 @@ adb devices
 adb -d sideload lineage-23.0-20260107-nightly-Spacewar-signed.zip
 ```
 
-18. When asked If You Want to reboot back to recovery, select **No**
-19. Select **Reboot Your system**
+18. When asked If You Want to reboot back to recovery, select **yes**
+19. Go back to Apply update/Apply from adb
+20. Back On The Pc sideload Magisk to Enable root
+
+```sh
+adb devices
+adb -d sideload Magisk-v30.6.apk 
+```
+22. When asked about Signuture verification choose yes/accept
+24. Go back to the main menu
+23. Select **Reboot Your system**
 
 You should now be back on **LineageOS**.
 
