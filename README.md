@@ -196,8 +196,8 @@ adb devices
 adb -d sideload lineage-23.0-20260107-nightly-Spacewar-signed.zip
 ```
 
-18. When asked to reboot back to recovery, select **No**
-19. **Reboot Your Phone**
+18. When asked If You Want to reboot back to recovery, select **No**
+19. Select **Reboot Your system**
 
 You should now be back on **LineageOS**.
 
