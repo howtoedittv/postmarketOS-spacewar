@@ -5,8 +5,6 @@ postmarketOS for Nothing Phone (1) – spacewar
 
 **postmarketOS-spacewar** provides scripts and images to install **postmarketOS** on the **Nothing Phone (1)**. This project is intended for people who are comfortable with unlocking bootloaders and flashing Android devices only.
 
-This currently ships With the **Phosh Desktop Environment only**.
-
 ---
 
 ## Requirements
